@@ -17,6 +17,15 @@
         justify-content: space-around;
         margin-top: 50px;
 
+        @media (max-width: 768px) {
+            display: block;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .button {
+            margin-top: 24px;
+        }
+
         &__item {
             text-align: center;
             padding: 60px 44px 44px;
